@@ -1,0 +1,16 @@
+{
+  "name": "volundir-ruby-server",
+  "version": "0.0.1",
+  "description": "[:Volundir][:Ruby][:Server] is a minimal Back End Server for [:Volundir][:Apps].",
+  "dependencies": [],
+  "comands": [
+    {
+      "name": "server",
+      "aliases": ["s"],
+      "description": "Starts the application server",
+      "action": "start_server",
+      "const_name": "Volundir::Server::BackEnd",
+      "controller": "/server/back_end.rb"
+    }
+  ]
+}

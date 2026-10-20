@@ -1,0 +1,6 @@
+{
+  "header": "[:Volundir][:Ruby][:BackEnd][:Server]",
+  "usage": "volundir <command> [options]",
+  "available_commands_title": "Available Commands:",
+  "description": "  server           (s)       Runs the application server on the specified port."
+}
