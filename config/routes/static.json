@@ -1,0 +1,4 @@
+{
+  "/": "Volundir::Server::BackEnd::Controllers::Home.index",
+  "/health": "Volundir::Server::BackEnd::Controllers::Health.check"
+}

@@ -12,5 +12,15 @@
       "const_name": "Volundir::Server::BackEnd",
       "controller": "/server/back_end.rb"
     }
+  ],
+  "apps": [
+    {
+      "name": "back_end",
+      "assets": false,
+      "controllers": true,
+      "helpers": false,
+      "models": false,
+      "views": false
+    }
   ]
 }
