@@ -1,7 +1,7 @@
 {
   "name": "volundir-ruby-server",
   "version": "0.0.1",
-  "description": "[:Volundir][:Ruby][:Server] is a minimal Back End Server for [:Volundir][:Apps].",
+  "description": "[:Volundir][:Ruby][:Server] is a minimal Back End Server for [:Volundir][:PWA].",
   "dependencies": ["volundir-ruby"],
   "comands": [
     {
