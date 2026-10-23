@@ -3,6 +3,25 @@
   "version": "0.0.1",
   "description": "[:Volundir][:Ruby][:Server] is a minimal Back End Server for [:Volundir][:PWA].",
   "dependencies": ["volundir-ruby"],
+  "install": {
+    "pre_install": {
+      "directories": []
+    },
+    "post_install": {
+      "copy": [
+        {
+          "source": "support/.volundir-ruby-server.development.env",
+          "destination": ".volundir-ruby.development.env"
+        },
+        {
+          "source": "support/Gemfile.inc.rb",
+          "destination": "Gemfile.inc.volundir-ruby-server.rb"
+        }
+      ],
+      "symlinks": [],
+      "permissions": ["bin/volundir_ruby.rb"]
+    }
+  },
   "comands": [
     {
       "name": "server",
